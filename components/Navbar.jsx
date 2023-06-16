@@ -49,7 +49,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className='btn btn-ghost normal-case text-xl'>
+        <Link href='/' className='btn btn-ghost normal-case text-xl'>
           <Image
             src='/logo.webp'
             alt='logo'
@@ -58,7 +58,7 @@ const Navbar = () => {
             className='brightness-200 -mr-3'
           />
           Herrería <br /> <span className='text-xs'>DEMO</span>
-        </a>
+        </Link>
       </div>
       <div className='navbar-center hidden lg:flex'>
         <ul className='menu menu-horizontal px-1'>

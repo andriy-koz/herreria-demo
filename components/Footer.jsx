@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <footer className='footer p-10 bg-neutral text-neutral-content mt-16'>
+    <footer className='footer p-10 bg-neutral mt-16'>
       <div className='mx-auto'>
         <Image
           src='/logo.webp'
@@ -21,7 +21,9 @@ const Footer = () => {
         </p>
       </div>
       <div className='mx-auto'>
-        <span className='footer-title'>Social</span>
+        <span className='uppercase py-2 font-semibold tracking-wider'>
+          Social
+        </span>
         <div className='grid grid-flow-col gap-4'>
           <a>
             <svg
